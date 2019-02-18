@@ -1,7 +1,8 @@
-#
-#
-#
+
+
+
 def find_x(arr, x):
+
     ''' Linear/Sequential search, iteratively '''
     
     for i in range(len(arr) - 1):
@@ -9,10 +10,11 @@ def find_x(arr, x):
             print("found x at index: " + str(i))
             return
     print("x not found")
-#
-#
-#
+
+
+
 def find_x_res(arr, x, current_index=0):
+
     ''' Linear/Sequential search, recursively '''
 
     if arr[current_index] == x:
@@ -24,9 +26,9 @@ def find_x_res(arr, x, current_index=0):
         return
     
     return find_x_res(arr, x, current_index + 1)
-#
-#
-#
+
+
+
 if __name__ == "__main__":
 
     arr_x = [1, 2, 3, 4, 5]
