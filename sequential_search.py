@@ -1,6 +1,3 @@
-
-
-
 def find_x(arr, x):
 
     ''' Linear/Sequential search, iteratively '''
